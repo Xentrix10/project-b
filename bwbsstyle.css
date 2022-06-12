@@ -1,0 +1,312 @@
+body{
+  background-color: cornflowerblue;
+  /* background-image: url(images/bg.jpg); */
+}
+
+.topnav{
+  position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #cc0000;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
+    padding: 1em;
+}
+
+/* Links inside the navbar */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  padding: 14px 12px;
+  text-decoration: none;
+  font-size: 25px !important;
+}
+
+/* Change background on mouse-over */
+.topnav a:hover {
+  background: #ddd;
+  color: black;
+}
+
+/* Main content */
+.main {
+  margin-top: 30px; /* Add a top margin to avoid content overlay */
+}
+
+
+
+
+/* Home Page */
+
+.intro{
+  background-image: url(images/grad3.jpg);
+  background-repeat: no-repeat;
+
+   background-size: cover;
+  height: 550px;
+}
+
+.intro-txt{
+  padding-left: 80px;
+  padding-top: 100px;
+  color: #FFFFF0;
+  font-size: 50px;
+  font-weight: bolder;
+
+}
+
+.about{
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+.about-des{
+  font-size: 15px;
+  font-weight: normal;
+  text-align: center;
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+.about1{
+  text-align: center;
+  background-image: url(images/bg3.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.connect{
+  text-align: center;
+  font-weight: bold;
+  background-image: url(images/phone1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.connect-title{
+  font-size: 35px;
+  font-weight: bolder;
+  font-synthesis: style;
+}
+
+.icons{
+  padding: 4rem 2rem 1rem 2rem;
+}
+
+.contact-img{
+  padding-left: 80px;
+}
+
+.contact-btn{
+  background-color: #C3B1E1;
+  border: none;
+}
+
+.contact-btn :hover{
+  background-color: #590696;
+}
+
+.logo2{
+  height: 120px;
+  width:  270px;
+}
+
+.end-block{
+  align-items: center;
+  background-color: cornflowerblue;
+  background-image: url(images/end-photo.jpg);
+  text-align: center;
+  font-weight: bold;
+  align-content: space-around;
+}
+
+.copyrights{
+  text-align: center;
+}
+
+/* Contact Us Page */
+
+.contact-intro{
+  background-color: blue;
+  height:50px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: bolder;
+}
+
+.contact-form{
+  padding: 3rem 3rem 3rem 3rem;
+  align-self: center;
+  height: 75%;
+  width: 75%;
+}
+
+.contact-box{
+  background-image: url(images/bg2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bwbs-form{
+  text-align: center;
+}
+
+.callback{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.contact-logo{
+  text-align: left;
+}
+
+.navlogo{
+  text-align: left;
+}
+
+.thebar{
+  font-size: 20px !important;
+}
+
+.services{
+  text-align: center;
+  padding: 2rem 5rem 2rem 5rem;
+  table-layout: fixed;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.service-img{
+  text-align: center;
+  table-layout: auto;
+  height: 400px;
+  width: 300px;
+  padding: 2rem 3rem 2rem 3rem;
+
+}
+
+.service-hd{
+  font-weight: bolder;
+  font-size: 25px;
+}
+
+.services2 {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+  table-layout: fixed;
+}
+
+@mediascreen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+/* Elegant form */
+/* *,
+*:before,
+*:after {
+   @include box-sizing(border-box);
+}
+
+html, body {
+  background: #f1f1f1;
+  font-family: 'Merriweather', sans-serif;
+  padding: 1em;
+}
+
+h1 {
+   text-align: center;
+   color: #a8a8a8;
+   @include text-shadow(1px 1px 0 rgba(white, 1));
+}
+
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(8px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     @include box-shadow(0 1px 1px rgba(black, 0.1));
+     resize: none;
+
+    &:focus {
+       @include box-shadow(0 0px 2px rgba($red, 1)!important);
+    }
+  }
+
+  #input-submit {
+     color: white;
+     background: $red;
+     cursor: pointer;
+
+    &:hover {
+       @include box-shadow(0 1px 1px 1px rgba(#aaa, 0.6));
+    }
+  }
+
+  textarea {
+      height: 126px;
+  }
+}
+
+
+.half {
+  float: left;
+  width: 48%;
+  margin-bottom: 1em;
+}
+
+.right { width: 50%; }
+
+.left {
+     margin-right: 2%;
+}
+
+
+@media (max-width: 480px) {
+  .half {
+     width: 100%;
+     float: none;
+     margin-bottom: 0;
+  }
+}
+
+
+/* Clearfix */
+/*.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    /*display: table; /* 2 */
+/*}
+
+.cf:after {
+    clear: both;
+}
+*/
