@@ -66,7 +66,7 @@
         <div class=" container contact-form">
           <!-- <img class="img-fluid logoctpg" src="images/logo2.png" alt="BWBS"> -->
 
-          <form method="post" autocomplete="off" name="google-sheet" >
+          <form method="post" action="https://formsubmit.co/warriorclash87@gmail.com" name="google-sheet" >
 
             <div class="form-alerts">
 
@@ -145,18 +145,6 @@
 
 
     </div>
-
-    <script>
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbyj3ORr9BLTPQzSnoJhabAqyfPtIsyRP8rIQqhqkxW_sEK4BKcqFt6Oin8ZpaK2yf3j/exec'
-    const form = document.forms['google-sheet']
-
-    form.addEventListener('submit', e => {
-      e.preventDefault()
-      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
-      .then(response => alert("Thanks for Contacting us..! We Will Contact You Soon..."))
-      .catch(error => console.error('Error!', error.message))
-    })
-    </script>
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
