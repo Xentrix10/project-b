@@ -1,0 +1,228 @@
+body{
+  background-color: #FFFFF0;
+  margin-top: 30px;
+  padding-top: 100px;
+}
+
+/* Navigation Bar */
+
+/*Full Navigation Bar*/
+.topnav{
+  background-color: #BF40BF;
+  color: #FFFFF0 !important;
+  }
+
+  /* Main content */
+  .main {
+    margin-top: 30px!important;/* Add a top margin to avoid content overlay */
+  }
+
+/* Navbarlogo */
+.logo2{
+  width: 30%;
+  height: 30%;
+}
+
+/* Navbar Pages */
+.page-links{
+  color: cornflowerblue;
+  font-size: 25px;
+  font-weight: bolder;
+  color: #FFFFF0 !important;
+}
+
+/* Toggler Button */
+.navbar-toggler{
+  margin-left: 90% !important;
+}
+
+/* Navbar Pages LInks */
+.pglink-name{
+  padding: 2rem 2rem 2rem 2rem;
+  color: #FFFFF0 !important;
+}
+
+/* Links Hover */
+.page-links a:hover{
+  color: black !important;
+}
+
+/* Page Links Text Resizing */
+@media (min-width: 900px) and (max-width: 1024px) {
+  .pglink-name{
+       font-size: 21px;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .pglink-name{
+       font-size: 18px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .pglink-name{
+       font-size: 16px;
+  }
+}
+
+/* end */
+
+/* Introduction */
+.intro-txt{
+  font-size: 50%;
+  padding-top: 6rem;
+  background-color: #BF40BF;
+  padding-bottom: 7rem;
+}
+
+.intro-open{
+  font-size: 85px;
+  color: white;
+}
+
+/* Introduction text Resizing */
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .intro-open{
+       font-size: 60px;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .intro-open{
+       font-size: 40px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .intro-open{
+       font-size: 25px;
+  }
+}
+
+/* End */
+
+.intro-des{
+  font-size: 35px;
+  color: white;
+}
+
+/* Introduction text Resizing */
+
+@media (min-width: 900px) and (max-width: 1024px) {
+  .intro-des{
+       font-size: 30px;
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .intro-des{
+       font-size: 24px;
+  }
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .intro-des{
+       font-size: 18px;
+  }
+}
+
+/* End */
+
+/* Graduation Image */
+.grad-img{
+  padding: 0 2rem 2rem 4rem;
+}
+
+/* Enquire Now Button */
+.en-btn{
+  background-color: #ffbf00!important;
+  font-size: 25px !important;
+}
+
+.en-btn:hover {
+  background-color: #2EE59D;
+  box-shadow: 0px 15px 20px white;
+  color: #fff;
+  transform: translateY(-10px);
+}
+
+
+/* About Block */
+.about{
+  text-align: center;
+  padding: 2rem 3rem 7rem 3rem;
+  background-color: #ffff00;
+}
+
+.about-des{
+  font-size: 20px;
+  padding-top: 4rem;
+  text-align: left;
+  padding-left: 60%;
+}
+
+.about-img{
+  padding: 2rem 0 2rem 2rem;
+}
+
+
+
+/* Connect with us */
+.connect{
+  text-align: center;
+  font-weight: bold;
+  background-image: url(images/phone1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+}
+
+.connect-title{
+  font-size: 35px;
+  font-weight: bolder;
+  font-synthesis: style;
+}
+
+.icons{
+  padding: 4rem 2rem 1rem 2rem;
+}
+
+/* Resizing Icons */
+@media (min-width: 900px) and (max-width: 1024px) {
+  .icons{
+
+  }
+}
+@media (min-width: 768px) and (max-width: 900px) {
+  .icons{
+
+  }
+}
+
+@media (min-width: 200px) and (max-width: 768px) {
+  .icons{
+         
+  }
+}
+
+
+.contact-img{
+  padding-left: 80px;
+}
+
+.contact-btn{
+  background-color: #C3B1E1;
+  border: none;
+}
+
+.contact-btn :hover{
+  background-color: #590696;
+}
+
+
+/* Ending Block */
+.end-block{
+  background-color: #FFFFF0;
+  color: black;
+  text-align: center;
+}

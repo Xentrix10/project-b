@@ -1,0 +1,30 @@
+body{
+  margin-top: 30px;
+  padding-top: 100px;
+}
+
+/* Enquire us Form */
+.enquire-form{
+  background-color: #BF40BF;
+  padding: 3rem 2rem 5rem 2rem;
+}
+
+.callback{
+  font-size: 2rem;
+  text-align: center;
+  font-weight: bold;
+  color: #ffff00;
+}
+
+/* Submit button */
+.submit-btn{
+   background-color: blue !important; 
+}
+
+
+.logoctpg{
+  text-align: center;
+  width: 30%;
+  height:30%;
+  padding-left: 100px;
+}
